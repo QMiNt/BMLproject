@@ -69,14 +69,14 @@ nav .fas{
   font-weight: bold;
 }
 a:hover{
-  background: #eee;
+  background: #393E46;
 }
 a:hover i{
   color: #0096FF;
   transition: 0.5s;
 }
 a:hover span{
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
     transition: 0.5s;
 }
 .logout{
@@ -118,7 +118,7 @@ a:hover span{
   border-radius: 16px;
   padding: 10px;
   color:#ddd ;
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.471);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.299);
 }
 .users .card img{
   width: 70px;
