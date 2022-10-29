@@ -38,7 +38,7 @@ nav:hover{
 .logo img{
   width: 45px;
   height: 45px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .logo span{
   font-weight: bold;
@@ -105,6 +105,10 @@ a:hover span{
   margin: 10px 30px;
   color: rgb(255, 255, 255);
   cursor: pointer;
+}
+.main-top i span 
+{
+  font-size: small;
 }
 .main .users{
   display: flex;
@@ -220,4 +224,28 @@ table thead tr{
 }
 nav .fas{
     top: 14px;
+}
+.main-banner{
+  padding: 1rem;
+  text-align:right;
+  width: 100%;
+  /* color: transparent; */
+}
+.main-banner h1
+{
+  background-clip: text;
+  font-size: 96px;
+  background: -webkit-linear-gradient(top right,#eee, #00ADB5,#0482f8,#055193);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main-whatis
+{
+  padding: 1rem;
+  color: #EEEEEE;
+  font-size: 20px;
+}
+.main-whatis p
+{
+  padding-top: 2px;
 }
