@@ -8,6 +8,7 @@
   text-decoration: none;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  color: #eee;
 }
 body{
   background: #222831;
@@ -235,17 +236,39 @@ nav .fas{
 {
   background-clip: text;
   font-size: 96px;
-  background: -webkit-linear-gradient(top right,#eee, #00ADB5,#0482f8,#055193);
+  background: -webkit-linear-gradient(left ,#eee, #00ADB5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .main-whatis
 {
   padding: 1rem;
-  color: #EEEEEE;
+  color: #eeeeee;
   font-size: 20px;
 }
 .main-whatis p
 {
   padding-top: 2px;
+}
+.stream
+{
+  position: fixed;
+  bottom: 4%;
+  right:3%;
+  width: 128px;
+  height: 64px;
+  z-index: 10;
+  border-radius:10%;
+  background: #0096FF;
+  color: #eeeeee;
+  font-size: large;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.299);
+}
+.stream:hover{
+  background: #00ADB5;
+}
+.stream:active
+{
+  background:red;
+  color: White;
 }
